@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "repl_python3_Wikichatbot"
+version = "0.1.0"
+description = "Python wikipedia & chatbotAI Based chatbot Demo app"
+authors = ["Ahmad Faizal B H <ahmadfaizalbh726@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+chatbotAI = "^0.3.1"
+wikipedia = "^1.4.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
